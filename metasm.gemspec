@@ -14,10 +14,10 @@ Gem::Specification.new do |s|
   s.test_files    = s.files.grep(%r{^tests/})
   s.require_paths = ["."]
   s.homepage      = 'http://metasm.cr0.org'
-  s.license       = 'LGPL'
+  s.license       = 'LGPL-2.1'
 
   s.add_development_dependency "bundler", "~> 1.7"
-  s.add_development_dependency "rake"
-  s.add_development_dependency "test-unit"
+  s.add_development_dependency 'rake', '~> 0'
+  s.add_development_dependency 'test-unit', '~> 0'
 end
 
